@@ -1,19 +1,19 @@
 # 📅 PROJECT_BLUEPRINT_4: Workflow Timeline
 
-This document tracks the detailed chronological progress of the **Collision X** project, highlighting key milestones and team contributions.
+This document tracks the detailed chronological progress of the **CollisionX India** project, highlighting key milestones and team contributions.
 
 ## Recent Updates
 
 * **2025-12-09:**
-  * **Documentation & AI Integration:** **Sami** finalized the comprehensive project blueprint and integrated AI analysis tools (Claude/Gemini) for advanced debugging.
+  * **Documentation & AI Integration:** **Saidul** finalized the comprehensive project blueprint and integrated AI analysis tools (Claude/Gemini) for advanced debugging.
   * **Agile Artifacts:** Created detailed Product and Sprint backlogs to track team velocity.
 
 * **2025-12-05:**
-  * **Branding:** **Mrunalini** unveiled the new **"Collision X"** platform identity, incorporating a custom logo and unified color theme across the dashboard.
+  * **Branding:** **Mrunalini** unveiled the new **"CollisionX India"** platform identity, incorporating a custom logo and unified color theme across the dashboard.
   * **Refactoring:** **Vijay G** optimized the utility functions in `core/utils.py` to handle large datasets more efficiently.
 
 * **2025-11-26:**
-  * **Map Visualization:** **Amith** successfully integrated Open Source GeoJSON files to resolve region mismatch issues in the Map module.
+  * **Map Visualization:** **Saidul** successfully integrated Open Source GeoJSON files to resolve region mismatch issues in the Map module.
   * **Trend Analysis:** **Rakshitha** implemented the "Peak Hour Traffic" analysis to identify high-risk time windows.
 
 * **2025-11-25:**
@@ -21,18 +21,17 @@ This document tracks the detailed chronological progress of the **Collision X** 
   * **Advanced Plots:** **Sanjana** added the "Severity Heatmap" to visualize accident intensity by location.
 
 * **2025-11-22:**
-  * **Fake Data Engine:** **Saniya** and **Poojitha** enhanced the `data_generator.py` to produce realistic synthetic violations for stress testing.
   * **Bug Fixes:** **Anshu** resolved a critical merge conflict that was affecting the deployment pipeline.
-  * **Simulations:** **Sami** added a new script in the portal for `fake traffic data generation` to enable stress testing without real user data.
+  * **Simulations:** **Saidul** added a new script in the portal for `fake traffic data generation` to enable stress testing without real user data.
 
 * **2025-11-20:**
   * **Numerical Analysis:** **Mrunalini** deployed the "Numerical Analysis" page, adding descriptive statistics and data quality checks.
-  * **Error Handling:** **Sami** fixed the `pyarrow.lib.ArrowInvalid` serialization error in the dataframe viewer.
+  * **Error Handling:** **Saidul** fixed the `pyarrow.lib.ArrowInvalid` serialization error in the dataframe viewer.
   * **Data Validation:** **Saniya** added strict type checking for the CSV loader to reject malformed files earlier in the pipeline.
   * **Documentation:** **Rakshitha** updated the inline docstrings for all new utility functions.
 
 * **2025-11-18:**
-  * **UI Polish:** **Ishwari** and **Harika** refactored the HTML/CSS components to ensure a responsive design on mobile devices.
+  * **UI Polish:** **Ishwari** and **Harika** refactored the HTML/CSS components to ensure a responsive design.
   * **Page Routing:** **Poojitha** streamlined the Sidebar navigation for better user experience.
   * **Accessibility:** **Rakshitha** audited the color contrast ratios of the charts to ensure they met WCAG standards.
   * **Performance:** **Vijay G** implemented memoization for the sidebar data loader to prevent reloading on every interaction.
@@ -47,23 +46,23 @@ This document tracks the detailed chronological progress of the **Collision X** 
   * **Asset Management:** **Mrunalini** organized the static assets (images, CSS) and established the project folder structure.
 
 * **2025-11-09:**
-  * **Data Upload Feature:** **Divija** implemented the CSV file uploader with validation for required columns.
+  * **Data Upload Feature:** **Divija** implemented the CSV file uploader and **Visualization Page UI** with validation for required columns.
   * **Data Cleaning:** **Vijay G** wrote the utility scripts to clean null values and standardize date formats.
   * **Unit Tests:** **Darsana** added initial unit tests for the data loader to ensure file compatibility.
 
 * **2025-11-04:**
   * **Git Workflow:** **Anshu** established the Git structure and resolved initial merge conflicts for the team of 13.
-  * **Repo Initialization:** **Sami** set up the repository, virtual environment, and `app.py` skeleton.
-  * **Environment Config:** **Rakshitha** created the `pyproject.toml` and `requirements.txt` to manage dependencies.
+  * **Repo Initialization:** **Saidul** set up the repository, virtual environment, and `app.py` skeleton.
+  * **Environment Config:** **Saidul** created the `pyproject.toml` and `requirements.txt` to manage dependencies.
 
 * **2025-11-01:**
-  * **Project Kickoff:** Team **Collision X** assembled. **Sami** (Lead) defined the architecture and assigned initial modules to:
+  * **Project Kickoff:** Team **CollisionX India** assembled. **Saidul** (Lead) defined the architecture and assigned initial modules to:
     * **Development:** Ishwari, Harika, Divija, Amith, Sanjana, Darsana, Poojitha, Saniya, Vijay, Rakshitha.
     * **UI/UX:** Mrunalini.
     * **Version Control:** Anshu.
 
 * **2025-10-31:**
-  * **Pre-Project Consolidation:** Team gathered to discuss final project ideas. **Sami** proposed the "Traffic Violation" theme.
+  * **Pre-Project Consolidation:** Team gathered to discuss final project ideas. **Saidul** proposed the "Traffic Violation" theme.
   * **Skill Review:** Comprehensive review of Pandas/Matplotlib concepts learned over the last two weeks.
 
 * **2025-10-30:**
@@ -72,7 +71,7 @@ This document tracks the detailed chronological progress of the **Collision X** 
 
 * **2025-10-29:**
   * **Business Logic:** Brainstorming session on how to detect "violations" from raw data.
-  * **Geospatial Intro:** **Amith** started exploring `folium` for mapping data points.
+  * **Geospatial Intro:** **Saidul** started exploring `folium` for mapping data points.
 
 * **2025-10-28:**
   * **Seaborn Deep Dive:** Guide demonstrated advanced statistical plotting with Seaborn.
@@ -119,5 +118,5 @@ This document tracks the detailed chronological progress of the **Collision X** 
   * **Anshu** helped the team configure their local development environments.
 
 * **2025-10-13:**
-  * **Internship Start:** **Collision X** team orientation.
+  * **Internship Start:** **CollisionX India** team orientation.
   * **Introduction:** Guide introduced the mentorship program and outlined the learning path (Python -> Data Science -> Streamlit).
