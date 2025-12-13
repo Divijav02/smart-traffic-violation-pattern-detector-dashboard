@@ -309,12 +309,12 @@ render_plot_item(
     "Monika", df, "monika_2"
 )
 
-render_plot_item(
-    "Vehicle Type vs Fine Paid", 
-    "This pie chart displays the share of total fines contributed by each vehicle type. It helps identify which vehicle categories are responsible for the highest financial penalties.",
-    visualize_plot.plot_fine_vs_vehicle_pie,
-    "Ishwari", df, "ishwari_1"
-)
+# render_plot_item(
+#     "Vehicle Type vs Fine Paid", 
+#     "This pie chart displays the share of total fines contributed by each vehicle type. It helps identify which vehicle categories are responsible for the highest financial penalties.",
+#     visualize_plot.plot_fine_vs_vehicle_pie,
+#     "Ishwari", df, "ishwari_1"
+# )
 
 # ========================================= Removed Plots ====================================
 
@@ -349,11 +349,18 @@ st.markdown('<h2 id="total-fines-per-year" style="text-align: center;">Fines Amo
 # ========================================= End of Removed Plots ====================================== 
 
 render_plot_item(
-    "Violation Type Percentage", 
-    "This donut/pie chart breaks down the proportion of each violation type relative to the total. It serves as a quick overview to see the most dominating traffic infractions.",
-    visualize_plot.plot_violation_type_percentage,
-    "Amith", df, "amith_1"
+    "Vehicle Type vs Fine Paid", 
+    "This donut chart displays the share of total fines contributed by each vehicle type. It helps identify which vehicle categories are responsible for the highest financial penalties.",
+    visualize_plot.plot_fine_vs_vehicle_pie,
+    "Ishwari", df, "ishwari_1"
 )
+
+# render_plot_item(
+#     "Violation Type Percentage", 
+#     "This donut/pie chart breaks down the proportion of each violation type relative to the total. It serves as a quick overview to see the most dominating traffic infractions.",
+#     visualize_plot.plot_violation_type_percentage,
+#     "Amith", df, "amith_1"
+# )
 
 # ===========================================================================================
 # 🔥 RISK & DEMOGRAPHICS
